@@ -1,0 +1,36 @@
+@import "global", "card";
+:root {
+  font-size: 62.5%;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #19a1ad;
+  background-image: url(../images/bg-pattern-top.svg),
+    url(../images/bg-pattern-bottom.svg);
+  background-position: left -85% bottom -85%, right -85% top -85%;
+  background-repeat: no-repeat, no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  h5 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: $VeryDarkDesaturatedBlue;
+    font-family: "Kumbh Sans", "sans serif";
+    font-weight: 700;
+  }
+  p {
+    font-size: 1.4rem;
+    color: $DarkGrayishBlue;
+    font-family: "Kumbh Sans", "sans serif";
+    font-weight: 400;
+  }
+}

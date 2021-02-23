@@ -1,0 +1,107 @@
+.main-container {
+  margin: 0 auto;
+  height: 37.5rem;
+  width: 35rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 14rem 14.5rem 9rem;
+      grid-template-rows: 14rem 14.5rem 9rem;
+}
+
+.main-container-one {
+  background: url(../images/bg-pattern-card.svg);
+  border-radius: 2rem 2rem 0 0;
+}
+
+.main-container-two {
+  position: relative;
+  padding-top: 7.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  border-bottom: solid #969696 1px;
+}
+
+.main-container-two img {
+  position: absolute;
+  border-radius: 50rem;
+  top: -4.8rem;
+  border: solid white 4px;
+}
+
+.main-container-two span {
+  color: #6a6f81;
+}
+
+.main-container-three {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  border-radius: 0 0 2rem 2rem;
+}
+
+.main-container-three p {
+  margin-bottom: 0;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #19a1ad;
+  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+  background-position: left -85% bottom -85%, right -85% top -85%;
+  background-repeat: no-repeat, no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+body h5 {
+  margin: 0;
+  font-size: 1.8rem;
+  color: #2d3248;
+  font-family: "Kumbh Sans", "sans serif";
+  font-weight: 700;
+}
+
+body p {
+  font-size: 1.4rem;
+  color: #6a6f81;
+  font-family: "Kumbh Sans", "sans serif";
+  font-weight: 400;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,44 @@
+.main {
+  &-container {
+    margin: 0 auto;
+    height: 37.5rem;
+    width: 35rem;
+    display: grid;
+    grid-template-rows: 14rem 14.5rem 9rem;
+    &-one {
+      background: url(../images/bg-pattern-card.svg);
+      border-radius: 2rem 2rem 0 0;
+    }
+    &-two {
+      position: relative;
+      padding-top: 7.5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: white;
+      border-bottom: solid $DarkGray 1px;
+
+      img {
+        position: absolute;
+        border-radius: 50rem;
+        top: -4.8rem;
+        border: solid white 4px;
+      }
+      span {
+        color: $DarkGrayishBlue;
+      }
+    }
+    &-three {
+      background-color: white;
+
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      text-align: center;
+      border-radius: 0 0 2rem 2rem;
+      p {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
